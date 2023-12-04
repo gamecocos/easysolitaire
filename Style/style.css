@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: .2s ease-in-out;
+    line-height: 150%;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.iconImg {
+    height: 100%;
+}
+
+.partHeader .col-4 {
+    border-radius: 20% !important;
+}
+
+.mainPage {
+    max-width: 750px;
+}
+
+.mainPage .partHeader {
+    margin-top: 100px;
+}
+
+.appDwn {
+    cursor: default;
+}
+
+/* scroll control */
+/* 1 */
+.image-container {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  .image-container::-webkit-scrollbar {
+    display: none;
+  }
+  .image-container .itemImg {
+    display: inline-block;
+  }
+.itemImg {
+    border-radius: 15px;
+    overflow: hidden;
+}
+/* 2 */
+.owl-carousel .item img {
+    min-width: 10%;
+}
+
+.owl-carousel .item {
+    width: 98% !important;
+}
+
+.hr {
+    height: 2px;
+}
+
+/* responsive size */
+@media (max-width: 1000px) {
+    .mainPage .partHeader {
+        margin-top: 60px !important;
+    }
+
+    .partHeader,
+    .pSm {
+        padding: 5px 12px;
+    }
+}
+
+@media (max-width: 750px) {
+    .mainPage {
+        width: 100%;
+    }
+}
